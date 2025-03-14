@@ -1,9 +1,24 @@
 # **Data Structures and Algorithms Cheat Sheet**
 
+## **Contents:**
+### **Data Structures**
+- [Array](#1-array)
+- [Queue](#2-queue)
+- [Stack](#3-stack)
+- [Linked List](#4-linked-list)
+- [Tree](#5-tree)
+- [Heap](#6-heap)
+- [Graph](#8-hash-table)
+
+### **Common Algorithms**
+- [Sorting Algorithms](#1-sorting-algorithms)
+- [Searching Algorithms](#2-searching-algorithms)
+- [Graph Algorithms](#3-graph-algorithms)
+
 ## **Data Structures**
 
 ### **1. Array**
-- **Definition:** A collection of elements stored in a fixed-size, contiguous block of memory.
+- **Definition:** an array is a data structure consisting of a collection of elements (values or variables), of same memory size, each identified by at least one array index or key. An array is stored such that the position of each element can be computed from its index tuple by a mathematical formula.
 - **Common Use Cases:** Storing ordered data, matrix operations, dynamic programming.
 - **Time Complexity:**
   - Access: **O(1)**
@@ -11,6 +26,10 @@
   - Insertion/Deletion (end): **O(1)**; (middle): **O(n)**
 - **Pros:** Fast access, predictable performance.
 - **Cons:** Fixed size (in static arrays), resizing overhead (in dynamic arrays).
+- **Links:**
+    - [W3 Schools](https://www.w3schools.com/dsa/dsa_data_arrays.php)
+    - [G4G - Getting Started With Array Data Structure](https://www.geeksforgeeks.org/introduction-to-arrays-data-structure-and-algorithm-tutorials/)
+    - [Wikipedia](https://en.wikipedia.org/wiki/Array_(data_structure)#:~:text=In%20computer%20science%2C%20an%20array,tuple%20by%20a%20mathematical%20formula.)
 
 | **Variant**       | **Description**          | **Use Case**          |
 |------------------|----------------------|------------------|
@@ -127,15 +146,6 @@
 
 ---
 
-### **9. Trie (Prefix Tree)**
-- **Definition:** A tree for storing strings where common prefixes share nodes.
-- **Common Use Cases:** Autocomplete, spell checkers.
-- **Time Complexity:**
-  - Insert/Search: **O(m)** (m = word length)
-- **Pros:** Optimized for prefix searches.
-- **Cons:** High memory usage.
-
----
 
 ## **Common Algorithms**
 
