@@ -184,26 +184,26 @@
 |------------------|-------------------|------------------|
 | **[Bubble Sort](https://www.w3schools.com/dsa/dsa_algo_bubblesort.php)**   | O(n^2) | Simple cases, teaching |
 | **[Selection Sort](https://www.w3schools.com/dsa/dsa_algo_selectionsort.php)** | O(n^2) | Small datasets |
-| **Insertion Sort** | O(n^2) | Nearly sorted data |
-| **Merge Sort**    | O(n log n) | Large datasets |
-| **Quick Sort**    | O(n log n) (average), O(n^2) (worst) | General purpose |
-| **Heap Sort**     | O(n log n) | Priority queues |
-| **Radix Sort**    | O(nk) | Sorting numbers |
+| **[Insertion Sort](https://www.w3schools.com/dsa/dsa_algo_insertionsort.php)** | O(n^2) | Nearly sorted data |
+| **[Merge Sort](https://www.w3schools.com/dsa/dsa_algo_mergesort.php)**    | O(n log n) | Large datasets |
+| **[Quick Sort](https://www.w3schools.com/dsa/dsa_algo_quicksort.php)**    | O(n log n) (average), O(n^2) (worst) | General purpose |
+| **[Heap Sort](https://www.geeksforgeeks.org/heap-sort/)**     | O(n log n) | Priority queues |
+| **[Radix Sort](https://www.w3schools.com/dsa/dsa_algo_radixsort.php)**    | O(nk) | Sorting numbers |
 
 ### **2. Searching Algorithms**
 | **Algorithm**     | **Time Complexity** | **Use Case**      |
 |------------------|-------------------|------------------|
-| **Linear Search**  | O(n) | Small or unsorted data |
-| **Binary Search**  | O(log n) | Sorted data |
-| **Hashing**  | O(1) (avg), O(n) (worst) | Hash tables |
+| **[Linear Search](https://www.w3schools.com/dsa/dsa_algo_linearsearch.php)**  | O(n) | Small or unsorted data |
+| **[Binary Search](https://www.w3schools.com/dsa/dsa_algo_binarysearch.php)**  | O(log n) | Sorted data |
+| **[Hashing](https://www.geeksforgeeks.org/introduction-to-hashing-2/)**  | O(1) (avg), O(n) (worst) | Hash tables |
 
 ### **3. Graph Algorithms**
 | **Algorithm**  | **Use Case** |
 |--------------|----------------|
-| **DFS (Depth First Search)** | Exploring paths |
-| **BFS (Breadth First Search)** | Shortest path (unweighted) |
-| **Dijkstra’s Algorithm** | Shortest path (weighted) |
-| **Floyd-Warshall** | All-pairs shortest path |
+| **[DFS (Depth First Search)](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)** | Exploring paths |
+| **[BFS (Breadth First Search)](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)** | Shortest path (unweighted) |
+| **[Dijkstra’s Algorithm](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)** | Shortest path (weighted) |
+| **[Floyd-Warshall](https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/)** | All-pairs shortest path |
 
 ---
 
