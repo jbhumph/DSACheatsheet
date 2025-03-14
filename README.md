@@ -18,7 +18,7 @@
 ## **Data Structures**
 
 ### **1. Array**
-- **Definition:** an array is a data structure consisting of a collection of elements (values or variables), of same memory size, each identified by at least one array index or key. An array is stored such that the position of each element can be computed from its index tuple by a mathematical formula.
+- **Definition:** An array is a data structure consisting of a collection of elements (values or variables), of same memory size, each identified by at least one array index or key. An array is stored such that the position of each element can be computed from its index tuple by a mathematical formula.
 - **Common Use Cases:** Storing ordered data, matrix operations, dynamic programming.
 - **Time Complexity:**
   - Access: **O(1)**
@@ -29,7 +29,7 @@
 - **Links:**
     - [W3 Schools](https://www.w3schools.com/dsa/dsa_data_arrays.php)
     - [G4G - Getting Started With Array Data Structure](https://www.geeksforgeeks.org/introduction-to-arrays-data-structure-and-algorithm-tutorials/)
-    - [Wikipedia](https://en.wikipedia.org/wiki/Array_(data_structure)#:~:text=In%20computer%20science%2C%20an%20array,tuple%20by%20a%20mathematical%20formula.)
+    - [Wikipedia](https://en.wikipedia.org/wiki/Array_(data_structure))
 
 | **Variant**       | **Description**          | **Use Case**          |
 |------------------|----------------------|------------------|
@@ -38,13 +38,17 @@
 ---
 
 ### **2. Queue**
-- **Definition:** A data structure that follows the **FIFO** (First-In-First-Out) principle.
+- **Definition:** A queue is defined as a linear data structure that is open at both ends and the operations are performed in **First In First Out (FIFO)** order. We define a queue to be a list in which all additions to the list are made at one end, and all deletions from the list are made at the other end.
 - **Common Use Cases:** Task scheduling, breadth-first search.
 - **Time Complexity:**
   - Enqueue: **O(1)**
   - Dequeue: **O(1)**
 - **Pros:** Ensures order processing.
 - **Cons:** Inefficient random access.
+- **Links:**
+    - [W3 Schools](https://www.w3schools.com/dsa/dsa_data_queues.php)
+    - [G4G - Introduction to Queue Data Structures](https://www.geeksforgeeks.org/introduction-to-queue-data-structure-and-algorithm-tutorials/)
+    - [Wikipedia](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
 
 | **Variant**          | **Description**                 | **Use Case**             |
 |---------------------|--------------------------------|-------------------------|
@@ -53,13 +57,18 @@
 ---
 
 ### **3. Stack**
-- **Definition:** A data structure that follows the **LIFO** (Last-In-First-Out) principle.
+- **Definition:** The stack data structure is a linear data structure that accompanies a principle known as **LIFO (Last In First Out)** or **FILO (First In Last Out)**. Real-life examples of a stack are a deck of cards, piles of books, piles of money, and many more.
 - **Common Use Cases:** Undo/redo, call stack, depth-first search.
 - **Time Complexity:**
   - Push: **O(1)**
   - Pop: **O(1)**
 - **Pros:** Ideal for nested or backtracking operations.
 - **Cons:** Inefficient searching.
+- **Links:**
+    - [W3 Schools](https://www.w3schools.com/dsa/dsa_data_stacks.php)
+    - [G4G - What Is A Stack Data Structure?](https://origin.geeksforgeeks.org/introduction-to-stack-data-structure-and-algorithm-tutorials/)
+    - [G4G - Implementing Stack Using Array](https://www.geeksforgeeks.org/implement-stack-using-array/)
+    - [G4G - Implementing Stack Using Linked List](https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/)
 
 ---
 
@@ -71,6 +80,11 @@
   - Insertion/Deletion: **O(1)**
 - **Pros:** Efficient insertions/deletions.
 - **Cons:** Higher memory overhead due to pointers.
+- **Links:**
+    - [W3 Schools](https://www.w3schools.com/dsa/dsa_theory_linkedlists.php)
+    - [G4G - Singly Linked List](https://www.geeksforgeeks.org/singly-linked-list-tutorial/)
+    - [G4G - Doubly Linked List](https://www.geeksforgeeks.org/doubly-linked-list/)
+    - [G4G - Circular Linked List](https://www.geeksforgeeks.org/doubly-linked-list/)
 
 | **Variant**            | **Description**              | **Use Case**             |
 |----------------------|--------------------------|-------------------------|
@@ -87,6 +101,11 @@
   - Insert/Delete: **O(log n)**
 - **Pros:** Efficient hierarchical organization.
 - **Cons:** Can become unbalanced.
+- **Links:**
+    - [W3 Schools](https://www.w3schools.com/dsa/dsa_theory_trees.php)
+    - [G4G - Introduction to Tree Data Structure](https://www.geeksforgeeks.org/introduction-to-tree-data-structure/)
+    - [G4G - Tree Traversal Techniques](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/?ref=next_article_top)
+
 
 | **Variant**         | **Description**                        | **Use Case**     |
 |--------------------|--------------------------------|---------------|
@@ -97,12 +116,14 @@
 ---
 
 ### **6. Heap**
-- **Definition:** A tree-based structure where parent nodes follow a specific ordering rule.
+- **Definition:** In data structures, a heap is a tree-based data structure that satisfies the heap property: a parent node's value is always greater than or equal to its children (max-heap) or less than or equal to its children (min-heap).
 - **Common Use Cases:** Priority queues, heap sort.
 - **Time Complexity:**
   - Insert/Delete: **O(log n)**
 - **Pros:** Fast retrieval of min/max elements.
 - **Cons:** Not efficient for arbitrary searches.
+- **Links:**
+    - [G4G - Introduction To Heap](https://www.geeksforgeeks.org/introduction-to-heap/)
 
 | **Variant**  | **Description**              | **Use Case**             |
 |-------------|--------------------------|-------------------------|
@@ -112,11 +133,16 @@
 ---
 
 ### **7. Graph**
-- **Definition:** A collection of nodes (vertices) connected by edges.
+- **Definition:** Graphs in data structures are non-linear data structures made up of a finite number of nodes or vertices and the edges that connect them. Graphs in data structures are used to address real-world problems in which it represents the problem area as a network like telephone networks, circuit networks, and social networks.
 - **Common Use Cases:** Social networks, recommendation systems, routing.
 - **Time Complexity:** Varies based on implementation.
 - **Pros:** Best for representing networks.
 - **Cons:** Complex operations.
+- **Links:**
+    - [W3 Schools](https://www.w3schools.com/dsa/dsa_theory_graphs.php)
+    - [G4G - Introduction to Graph Data Structure](https://www.geeksforgeeks.org/introduction-to-graphs-data-structure-and-algorithm-tutorials/)
+    - [G4G - Graph and it's Representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
+    - [Wikipedia](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
 
 | **Representation**   | **Description**                     |
 |---------------------|--------------------------------|
@@ -131,7 +157,7 @@
 
 ---
 
-### **8. Hash Table**
+### **8. Hash Table / Map**
 - **Definition:** A data structure that maps keys to values using a hash function.
 - **Common Use Cases:** Caching, indexing.
 - **Time Complexity:**
@@ -139,6 +165,10 @@
   - Worst case: **O(n)**
 - **Pros:** Fast lookup.
 - **Cons:** Collisions can degrade performance.
+- **Links:**
+    - [W3 Schools](https://www.w3schools.com/dsa/dsa_data_hashmaps.php)
+    - [G4G - HashMap Data Structure](https://www.geeksforgeeks.org/hashing-data-structure/)
+    - [Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
 
 | **Variant**  | **Description**     |
 |------------|-----------------|
@@ -152,8 +182,8 @@
 ### **1. Sorting Algorithms**
 | **Algorithm**     | **Time Complexity** | **Use Case**      |
 |------------------|-------------------|------------------|
-| **Bubble Sort**   | O(n^2) | Simple cases, teaching |
-| **Selection Sort** | O(n^2) | Small datasets |
+| **[Bubble Sort](https://www.w3schools.com/dsa/dsa_algo_bubblesort.php)**   | O(n^2) | Simple cases, teaching |
+| **[Selection Sort](https://www.w3schools.com/dsa/dsa_algo_selectionsort.php)** | O(n^2) | Small datasets |
 | **Insertion Sort** | O(n^2) | Nearly sorted data |
 | **Merge Sort**    | O(n log n) | Large datasets |
 | **Quick Sort**    | O(n log n) (average), O(n^2) (worst) | General purpose |
